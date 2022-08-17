@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Rozetka" >
+    <test name="Comparing products" >
+        <classes>
+            <class name="rozetkaTests.RozetkaCompareMonitorPageTest" />
+        </classes>
+    </test>
+    <test name="Filters" >
+        <classes>
+            <class name="rozetkaTests.RozetkaFiltersPageTest" />
+        </classes>
+    </test>
+    <test name="Basket" >
+        <classes>
+            <class name="rozetkaTests.BasketTests" />
+        </classes>
+    </test>
+    <test name="Products" >
+        <classes>
+            <class name="rozetkaTests.ProductPageTests" />
+        </classes>
+    </test>
+</suite>
